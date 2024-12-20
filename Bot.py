@@ -4,7 +4,7 @@ import telebot
 import webbrowser
 
 # فتح رابط قناة تلغرام عند تشغيل البوت
-webbrowser.open('https://t.me/kwulu')
+webbrowser.open('https://www.instagram.com/j_1_2_37?igsh=OGQ5ZDc2ODk2ZA==')
 
 # التحقق من تثبيت حزمة cfonts، وتثبيتها في حال عدم وجودها
 try:
@@ -14,15 +14,15 @@ except ImportError:
     from cfonts import render
 
 # عرض اسم المطور بتنسيق جمالي
-developer_name = "Frost"
+developer_name = "الطاغية اليماني"
 output = render(f'{developer_name}', colors=['red', 'yellow'], align='center')
 print(output)
 
 # توكن البوت (استبدله بالتوكن الخاص بك)
-bot_token = "ضع_توكن_البوت_هنا"
+bot_token = "7789591464:AAGyaDnxISYNKnURcHLG_NVYIld0xHvfRZ0"
 
 # تهيئة البوت باستخدام التوكن
-bot = telebot.TeleBot(bot_token)
+bot = telebot.TeleBot(7789591464:AAGyaDnxISYNKnURcHLG_NVYIld0xHvfRZ0)
 
 
 # معالجة أمر /start
